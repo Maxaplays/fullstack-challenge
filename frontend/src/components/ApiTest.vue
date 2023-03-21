@@ -19,6 +19,7 @@ export default {
 
 <template>
   <div class="bg-red-600">Hola</div>
+  <div class="bg-red-600">Hola</div>
   <div v-if="!apiResponse">Pinging the api...</div>
 
   <div v-if="apiResponse">
