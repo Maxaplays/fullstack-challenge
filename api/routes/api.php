@@ -23,4 +23,4 @@ Route::get('/', function () {
     ]);
 });
 
-Route::get("web", [WebController::class, 'index']);
+Route::get("web/{latitude}/{longitude}", [WebController::class, 'index']);
